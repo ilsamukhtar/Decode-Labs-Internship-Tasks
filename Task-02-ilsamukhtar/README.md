@@ -86,7 +86,6 @@ Task-02-ilsamukhtar/
 
 ## 🖼️ Screenshots
 
-> Screenshots are stored in a `screenshots/` folder inside `Task-02-ilsamukhtar/`. Add the images there and keep the file names below so the links work.
 
 **1. Change Detection**
 Git detecting the new `Task-02-ilsamukhtar` folder as untracked.
