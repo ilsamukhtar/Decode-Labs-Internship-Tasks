@@ -1,0 +1,31 @@
+Git Workflow Demonstration
+===========================
+
+1. Check repository status
+   git status
+
+2. Create a new branch
+   git checkout -b feature/task-02
+
+3. Make changes to project files
+
+4. Check modified files
+   git status
+
+5. Stage changes
+   git add .
+
+6. Commit changes
+   git commit -m "Add Git workflow demonstration"
+
+7. Switch back to main branch
+   git checkout main
+
+8. Merge the feature branch
+   git merge feature/task-02
+
+9. Check repository history
+   git log --oneline
+
+10. Push changes to GitHub
+    git push origin main
