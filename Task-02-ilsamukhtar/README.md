@@ -1,12 +1,14 @@
 # Task 02 — Version Control with Git
 
-## Overview
+## 📌 Overview
 
-This project demonstrates the fundamentals of version control using Git and GitHub.
+This project demonstrates the fundamentals of **version control using Git and GitHub**.
 
 The objective of this task was to understand how Git can be used to track changes, manage branches, create commits, and collaborate through a remote GitHub repository.
 
-## Objectives
+---
+
+## 🎯 Objectives
 
 - Understand the basic Git workflow
 - Initialize and manage a Git repository
@@ -16,7 +18,9 @@ The objective of this task was to understand how Git can be used to track change
 - Merge changes into the main branch
 - Push project changes to GitHub
 
-## Git Workflow
+---
+
+## 🔄 Git Workflow
 
 The following workflow was practiced during this task:
 
@@ -32,76 +36,93 @@ Working Directory
     git push
        ↓
      GitHub
+```
 
-Branch-based development was also practiced:
+A feature branch was also used to practice branch-based development:
 
+```text
 main
   │
   └── feature/task-02
           │
-          ├── Make Changes
-          │
-          ├── Stage Changes
-          │
-          └── Commit
-                 │
-                 ↓
+          └── Changes
+                │
+                ↓
+             Commit
+                │
+                ↓
               Merge
-                 │
-                 ↓
-               main
+                │
+                ↓
+              main
+```
 
-Commands Practiced
-Command	Purpose
-git status	Check the current repository status
-git checkout -b feature/task-02	Create and switch to a new feature branch
-git add .	Stage changes for commit
-git commit -m "message"	Save changes to Git history
-git checkout main	Switch to the main branch
-git merge feature/task-02	Merge the feature branch into main
-git log --oneline	View the commit history
-git push origin main	Push commits to GitHub
-git remote -v	View the configured remote repository
-Practical Workflow
+---
 
-The following Git workflow was performed during this task:
+## 🛠️ Commands Practiced
 
-Checked the repository status.
-Created a dedicated feature branch for Task 2.
-Added the Task 2 project files.
-Staged the changes using Git.
-Created a commit with a descriptive message.
-Switched back to the main branch.
-Merged the feature branch into main.
-Verified the commit history.
-Pushed the updated repository to GitHub.
-Project Structure
+| Command | Purpose |
+|---|---|
+| `git status` | Check the current repository status |
+| `git checkout -b` | Create and switch to a new branch |
+| `git add .` | Stage project changes |
+| `git commit` | Save changes to Git history |
+| `git checkout` | Switch between branches |
+| `git merge` | Merge branch changes |
+| `git log --oneline` | View commit history |
+| `git push` | Upload commits to GitHub |
+
+---
+
+## 📂 Project Files
+
+```text
 Task-02-ilsamukhtar/
 ├── README.md
 └── git-workflow.txt
-README.md
+```
 
-Contains an overview of the task, objectives, Git workflow, commands, and outcomes.
+---
 
-git-workflow.txt
+## 🖼️ Screenshots
 
-Contains the Git commands used to demonstrate the version control workflow.
+> Screenshots are stored in a `screenshots/` folder inside `Task-02-ilsamukhtar/`. Add the images there and keep the file names below so the links work.
 
-Outcome
+**1. Change Detection**
+Git detecting the new `Task-02-ilsamukhtar` folder as untracked.
 
-Successfully practiced the fundamental Git workflow, including:
+![Change Detected](screenshots/01-change-detected.png)
 
-Repository management
-Change tracking
-Branch creation
-Staging
-Commits
-Branch merging
-Remote repository management
-Pushing changes to GitHub
+**2. Branch Creation**
+Creating and switching to the `feature/task-02` branch.
 
-This task strengthened my practical understanding of Git, GitHub, branching, and version control workflows used in software development and DevOps environments.
+![Branch Created](screenshots/02-branch-created.png)
 
-Skills Demonstrated
+**3. Staging & Commit**
+Staging the changes and committing them with a message.
 
-Git | GitHub | Version Control | Branching | Commits | Merging | Repository Management | Collaboration Basics
+![Commit Done](screenshots/03-commit-done.png)
+
+**4. Merge into Main**
+Merging `feature/task-02` back into `main` (fast-forward merge).
+
+![Merge Success](screenshots/04-merge-success.png)
+
+**5. Push to GitHub**
+Successfully pushing the final changes to the remote repository.
+
+![Push Success](screenshots/05-push-success.png)
+
+---
+
+## ✅ Outcome
+
+Successfully practiced the fundamental Git workflow, including change tracking, branching, committing, merging, and pushing changes to GitHub.
+
+This task strengthened my understanding of version control and collaborative software development practices.
+
+---
+
+## 🧠 Skills Demonstrated
+
+`Git` | `GitHub` | `Version Control` | `Branching` | `Commits` | `Merging` | `Repository Management`
